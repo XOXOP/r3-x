@@ -1,14 +1,11 @@
 package com.example.r3.servic;
 
 import com.example.r3.entity.Shipment;
+import com.example.r3.projection.Employee;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface ShipmentService {
-    //void registShipment(Shipment shipment);
-  //  List<Shipment> getAllShip();
-
     void save(Shipment shipment);
     Shipment registerShipment( Shipment shipment);
     Shipment getById(Long id);
@@ -18,10 +15,18 @@ public interface ShipmentService {
     void update(Shipment shipment);
 
     List<Shipment> getAllItem();
-    //Status getStatus(Long id);
+
+
+
+
+    List<Shipment> findsByName(String recipientName);
 
     String  getRecipientName(long id);
 
 
-    //Shipment registerShipment(Shipment shipment);
+    List<Shipment> getbyName(String recipientName);
+
+
+  List <Employee> emplist(String recipientName);
+   // List <Employee> empfulllist(String recipientName);
 }

@@ -94,6 +94,28 @@
 			<artifactId>swagger-ui</artifactId>
 			<version>5.17.14</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.statemachine/spring-statemachine-core -->
+		<dependency>
+			<groupId>org.springframework.statemachine</groupId>
+			<artifactId>spring-statemachine-core</artifactId>
+			<version>3.2.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.statemachine/spring-statemachine-test -->
+		<dependency>
+			<groupId>org.springframework.statemachine</groupId>
+			<artifactId>spring-statemachine-test</artifactId>
+			<version>3.2.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20240303</version>
+		</dependency>
+
+
 
 
 
